@@ -48,9 +48,9 @@ fi
 function pre_install(){
     #Set shadowsocks-libev config password
     echo "Please input password for shadowsocks-libev:"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
+    read -p "(Default password: blogfeng.com):" shadowsockspwd
     if [ "$shadowsockspwd" = "" ]; then
-        shadowsockspwd="teddysun.com"
+        shadowsockspwd="blogfeng.com"
     fi
     echo "password:$shadowsockspwd"
     echo "####################################"
@@ -166,7 +166,7 @@ function install(){
     echo -e "Your Local Port: \033[41;37m 1080 \033[0m"
     echo -e "Your Encryption Method: \033[41;37m aes-256-cfb \033[0m"
     echo ""
-    echo "Welcome to visit:http://teddysun.com/358.html"
+    echo "Welcome to visit:http://blogfeng.com/358.html"
     echo "Enjoy it!"
     echo ""
     exit 0
